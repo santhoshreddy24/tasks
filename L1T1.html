@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognifyz Technologies | Intern Portfolio</title>
+    <link rel="stylesheet" href="L1T1.css">
+</head>
+<body>
+    
+
+    <h1>Intern Portfolio</h1>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="intro">
+        <p>Hello everyone, I'm <b style="color: #0975e0;">Santhosh</b>, a third-year student at MBU studying Computer Science and Engineering (Data Science). I'm really excited to be here as an intern. I have experience with <b style="color:#0975e0;">HTML5</b>, <b style="color:#0975e0">CSS3</b>, and <b style="color: #0975e0">JavaScript</b>, and I'm eager to learn more about frameworks and contribute to the team. Thank you for this opportunity!
+        <br> more information, visit <a href="https://www.linkedin.com/in/santhosh-reddy-thotapalli-83a816292/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3ByplNYFbyRVyiFWjotm8%2F9w%3D%3D" target="_blank">Linkedin profile</a>.</p>
+    </div>
+    <img src="img.avif" alt="Cognifyz Technologies Logo">
+    <form id="subscribe-form">
+        <input type="email" placeholder="Enter your email" required><br>
+        <button type="submit">Submit</button>
+    </form>
+<script>
+document.getElementById('subscribe-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Thank you for subscribing!');
+    this.reset();
+});
+</script>
+</body>
+</html>
